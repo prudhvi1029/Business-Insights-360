@@ -8,7 +8,30 @@ The entire project has been implemented using Microsoft Power BI Desktop  and pu
 The project data files have not been uploaded to this repository in compliance with Codebasics Data & Content Distribution Policy.
 
 ---
+## Contents:
+- [Business Insights 360 Live Report Link](#business-insights-360-live-report-link)
+- [Power BI Techniques Learned](#power-bi-techniques-learned)
+- [Domain Knowledge](#domain-knowledge)
+  - [Business Domains](#business-domains)
+  - [Business Related Terms](#business-related-terms)
+  - [Sales Channels](#sales-channels)
+- [About AtliQ Hardware](#about-atliq-hardware)
+- [Problem Statement](#problem-statement)
+- [Tools and Technologies Used](#tools-and-technologies-used)
+- [About the Dataset](#about-the-dataset)
+  - [Data Sources](#data-sources)
+- [Data Model](#data-model)
+- [Project Implementation](#project-implementation)
+- [BI 360 Report Overview](#bi-360-report-overview)
+  - [Home View](#i-home-view)
+  - [Finance View](#ii-finance-view)
+  - [Sales View](#iii-sales-view)
+  - [Marketing View](#iv-marketing-view)
+  - [Supply Chain View](#v-supply-chain-view)
+  - [Executive View](#vi-executive-view)
+- [Conclusion](#conclusion)
 
+You can add this Table of Contents section to your `README.md` file to provide clear navigation links for your project documentation.
 
 ---
 
