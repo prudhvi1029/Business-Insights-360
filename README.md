@@ -35,7 +35,7 @@ You can add this Table of Contents section to your `README.md` file to provide c
 
 ---
 
-## [Business Insights 360 Live Report Link]([https://app.powerbi.com/reportEmbed?reportId=81c5c52b-6710-40e7-be82-4ab9c63f6256](https://app.powerbi.com/view?r=eyJrIjoiNTA2Mjg5ZDEtMzNhMi00ODI0LWJmM2EtM2FmNDcwMTYzNWVjIiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9))
+## [Business Insights 360 Live Report Link](https://app.powerbi.com/view?r=eyJrIjoiNTA2Mjg5ZDEtMzNhMi00ODI0LWJmM2EtM2FmNDcwMTYzNWVjIiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9)
 
 ---
 ## Power BI Techniques Learned
@@ -246,7 +246,7 @@ Here are the detailed links for every section below the phases in your `Document
 
 ---
 
-## BI 360 Report Overview:[Live Report Link]([https://app.powerbi.com/reportEmbed?reportId=81c5c52b-6710-40e7-be82-4ab9c63f6256](https://app.powerbi.com/view?r=eyJrIjoiNTA2Mjg5ZDEtMzNhMi00ODI0LWJmM2EtM2FmNDcwMTYzNWVjIiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9))
+## BI 360 Report Overview:[Live Report Link](https://app.powerbi.com/view?r=eyJrIjoiNTA2Mjg5ZDEtMzNhMi00ODI0LWJmM2EtM2FmNDcwMTYzNWVjIiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9)
 
 
 ### I. Home View:
