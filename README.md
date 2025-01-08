@@ -160,6 +160,9 @@ The dataset contains 11 tables in total, namely:
 ---
 
 ### Data Model:
+![Screenshot 2025-01-08 100331](https://github.com/user-attachments/assets/4dcde6ac-b592-419f-be09-4464f791ac62)  
+![Screenshot 2025-01-08 100355](https://github.com/user-attachments/assets/5244e7f7-c1bb-4de3-8d00-b89f86156e4c)
+
 
 ---
 
@@ -243,11 +246,13 @@ Here are the detailed links for every section below the phases in your `Document
 
 ---
 
-## BI 360 Report Overview:
+## BI 360 Report Overview:[Live Report Link](https://app.powerbi.com/reportEmbed?reportId=81c5c52b-6710-40e7-be82-4ab9c63f6256)
+
 
 ### I. Home View:
 
 Central navigation hub with easy access to all views, complete with support and information manual.
+![Home Page](https://github.com/user-attachments/assets/3dd2e04f-e582-40c0-9fc7-cfb22a1def9a)
 
 
 
@@ -255,26 +260,34 @@ Central navigation hub with easy access to all views, complete with support and 
 
 Enhances financial planning and cost control, featuring a P&L Statement, Net Sales Trend and Breakdown by Products/Customers and more.
 
+![Finance View](https://github.com/user-attachments/assets/f01d1ffd-a013-46e9-9c90-a499323672d6)
 
 
 ### III. Sales View:
 
 Focuses on boosting sales revenue and tracking customer performance, including Gross Margin % Variance across Customers/Products and more.
 
+![Sales View](https://github.com/user-attachments/assets/93ae3d19-7bff-4d14-afbb-4bc24eaa5c5b)
 
 
 ### IV. Marketing View:
 
 Elevates brand visibility and evaluates marketing campaign ROI, with insights into Segment Performance, Net Profit % Variance across Regions and more.
 
+![Marketing View](https://github.com/user-attachments/assets/4efe51cf-1b2e-4e98-b0d5-7b7b8c7957af)
+
 
 ### V. Supply Chain View:
 
 Optimizes inventory management and demand forecasting, featuring trends in Forecast Accuracy and Inventory Stock Risk by Customers/Products.
 
+![Supply Chain View](https://github.com/user-attachments/assets/940d196b-fd85-4c1d-9cd9-49b1c4ebe045)
+
 ### VI. Executive View:
 
 Provides a high-level overview of organizational performance for top AtliQ executives and senior management, showcasing business KPIs, Revenue Contributions by Division/Channel, Top Customers & Products, AtliQ's Market Share Trend and more.
+
+![Executive View](https://github.com/user-attachments/assets/0b10dc08-e362-479d-ac2d-74d9298e3c08)
 
 
 ---
