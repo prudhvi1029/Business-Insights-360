@@ -9,27 +9,70 @@ The project data files have not been uploaded to this repository in compliance w
 
 ---
 
-## Contents:
-Please find the sectional links for the project below:
-- [BI 360 Live Report Link]
-- [Introduction to AtliQ Hardware](#introduction-to-atliq-hardware)
-- [Project Objective](#project-objective)
-- [Tools used & Methodologies implemented](#tools-used)
-- [About the Dataset](#about-the-dataset)
-  - [Data Sources](#data-sources)
-  - [Data Integrity](#data-integrity)
-- [Data Model](#data-model)
-- [Project Implementation](#project-implementation)
-- [BI 360 Report Overview](#bi-360-report-overview)
-- [Conclusion](#conclusion)
 
 ---
 
-## [Business Insights 360 Live Report Link]
+## [Business Insights 360 Live Report Link](https://app.powerbi.com/reportEmbed?reportId=81c5c52b-6710-40e7-be82-4ab9c63f6256)
 
 ---
+## Power BI Techniques Learned
 
-## Introduction to AtliQ Hardware:
+Throughout the development of the AtliQ Hardware Power BI project, several advanced Power BI techniques and functionalities were employed to ensure robust and efficient data handling and visualization:
+
+- **Questions for Project Initiation**: Defined critical questions to be addressed before starting the project to align objectives, data requirements, and stakeholder expectations.
+- **Creating Calculated Columns**: Utilized DAX to create calculated columns, enhancing data analysis within the model.
+- **Creating Measures Using DAX**: Developed measures using DAX language for dynamic calculations across reports.
+  - **CALCULATE()**: Used to perform conditional calculations based on specific criteria.
+  - **DIVIDE()**: Applied to safely perform divisions and handle potential errors from zero division.
+  - **FILTER()**: Employed to filter data dynamically within formulas.
+  - **SWITCH()**: Utilized to simplify complex nested IF conditions for better readability and performance.
+- **Data Modeling**: Designed comprehensive data models to establish relationships and facilitate efficient data analysis.
+- **Using Bookmarks for Visual Management**: Implemented bookmarks to switch between visuals dynamically, enhancing report interactivity.
+- **Page Navigation with Buttons**: Used button-driven navigation to streamline user experiences and report accessibility.
+- **Creating Date Tables Using M Language**: Generated custom date tables in M language to support time-based analyses.
+- **Dynamic Titles Based on Filters**: Configured visual titles to dynamically adjust based on applied report filters.
+- **Using KPI Indicators**: Integrated KPI indicators to visually represent progress towards targets within dashboards.
+- **Conditional Formatting**: Applied conditional formatting in visuals using icons or background colors to enhance data readability and focus.
+- **Data Validation Techniques**: Implemented robust data validation processes to ensure the accuracy and quality of the data used.
+- **Power BI Services**:
+  - **Publishing Reports**: Reports were published to Power BI Service to facilitate access across teams.
+  - **Setting Up Personal Gateway**: Configured personal gateways for automatic data refresh, ensuring data is current and reliable.
+  - **Power BI App Creation**: Developed Power BI apps to consolidate reports and dashboards, simplifying distribution and access.
+  - **Collaboration and Permissions**: Managed workspace access and permissions, ensuring secure and role-appropriate access to BI resources
+---
+## Domain Knowledge
+
+#### Business Domains
+
+- **Finance**: Understanding financial metrics such as Net Profit, Gross Margin, and more.
+- **Sales**: Insights into sales performance, tracking direct sales, and distributor metrics.
+- **Marketing**: Analysis of marketing efforts and their impact on sales and brand positioning.
+- **Supply Chain**: Management of inventory, understanding supply chain logistics and efficiency
+
+#### Business Related Terms
+
+Familiarity with these terms was crucial to accurately interpret data and derive insights:
+
+- **Gross Price**: The total price of products before any deductions.
+- **Pre-invoice Deductions**: Discounts or allowances applied before invoicing.
+- **Post-Invoice Deductions**: Rebates or penalties applied after invoicing.
+- **Net Invoice Sale**: The actual invoiced amount after all deductions.
+- **Gross Margin**: The difference between revenue and cost of goods sold, expressed as a percentage of revenue.
+- **Net Sales**: Sales after deductions from returned goods.
+- **Net Profit**: Profit remaining after all expenses, including COGS and operational expenses.
+- **COGC (Cost of Goods Sold)**: Direct costs attributable to the production of the goods sold.
+- **YTD (Year to Date)**: A period, starting from the beginning of the current year and continuing up to the present day.
+- **YTG (Year to Go)**: The remaining part of the year from the current date to the end of the year.
+
+#### Sales Channels
+
+Understanding different sales channels was essential for analyzing market strategies:
+
+- **Direct**: Selling directly to consumers without any intermediaries.
+- **Retailer**: Sales made through retail channels.
+- **Distributors**: Third-party distributors who sell products to retailers or directly to consumers.
+---
+## About AtliQ Hardware:
 **Domain:** Consumer Goods | **Functions:** Finance, Sales, Marketing, Supply Chain and Executive
 
 - AtliQ Hardwares is company that sells computer hardware and peripherals like PC, mouse, printer etc. to clients across the world.
@@ -40,12 +83,15 @@ Please find the sectional links for the project below:
   2. E-commerce Customer: Online websites E.g. Amazon, Flipkart
 - AtliQ Hardwares also has a minor B2C business model wherein they own stores: AtliQ E-store and AtliQ Exclusive. These are called Direct channels.
 - They also have Distributors in some countries with restricted trade. E.g. Neptune
+  
+---
 
-## Project Objective:
+## Problem Statement:
 AltiQ Hardware, a global leader in computers and accessories, faced unexpected losses after opening a store in America. These setbacks were identified to be caused due to reliance on outdated methods such as Excel for data analysis. To address this issue, the company's leadership recognized the need for a transformative approach to leveraging data for informed decision-making. With competitors boasting robust analytics teams, AltiQ Hardware recognizes the urgent need to develop its analytics capabilities using Power BI to thrive in the industry.
 
-To outshine competitors, they've adopted Power BI for analytics with 1.8 million transaction records from Excel, CSV, and MySQL. The Power BI Dashboard includes:
-## Step-by-Step Execution: Building the Business Insights 360 DashBoard  
+To outshine competitors, they've adopted Power BI for analytics with 1.8 million transaction records from Excel, CSV, and MySQL.
+
+### Step-by-Step Execution: Building the Business Insights 360 DashBoard  
 
 - **Project Charter Implementation**: Establish a clear roadmap and accountability through a well-structured Project Charter.
 - **Benchmark-Backed Data Validation**: Ensure high data quality by processing and validating over 1 million rows of data against company benchmarks.
@@ -59,63 +105,38 @@ To outshine competitors, they've adopted Power BI for analytics with 1.8 million
 - **Supply Chain Visibility Achieved**: Enhance supply chain efficiency through detailed inventory forecasts and error analysis.
 - **Executive Dashboard**: Offer executives a clear view of operational performance and market trends to aid strategic planning.
 - **Unleashing the Power of Power BI Services**: Guide the team on utilizing Power BI Services for real-time insights and collaboration.
-
-
-## Tools and Technologies
+----
+## Tools and Technologies Used
 1. **Microsoft Power BI**
-  - Power BI Desktop: Utilized for creating data models, performing data transformation (ETL), and developing interactive visualizations and dashboards.
-  - Power BI Service: Used for sharing reports, setting up automated data refreshes, and managing the BI environment in the cloud.
-2. **SQL Databases**
-  - Data Storage and Management: Acts as the primary storage for structured data, enabling complex queries and data manipulation for reporting.  
-3. **Microsoft Excel**
-  - Data Analysis and Reporting: Employed for preliminary data analysis, manipulation, and as an interim data storage format before importing into Power BI.  
-4. **CSV Files**
-  - Data Import and Integration: CSV files are used as a data source for importing historical data and integrating with other data formats.  
-5. **GitHub**
-  - Documentation and Version Control: Serves as the repository for all documentation related to the project.
-
-
-## Skills & Methodologies implemented:
-1. Data Cleaning: **Power Query**
-2. Data Manipulation: **DAX Measures & Columns, Numeric & Field Parameters**
-3. Data Modelling
-4. Data Visualization: **Conditional Formatting, Custom Tooltip**
-5. Dashboarding: **Filters, Custom Icon Buttons, Slicers, Bookmarks, Page Navigation**
-6. Report Publishing: **PBI Service and Report Optimization**
-7. Documentation
-
+    - **Power BI Desktop**: Utilized for creating data models, performing data transformation (ETL), and developing interactive visualizations and dashboards.
+    - **Power BI Service:** Used for sharing reports, setting up automated data refreshes, and managing the BI environment in the cloud.
+2. **SQL Databases** : Data Storage and Management: Acts as the primary storage for structured data, enabling complex queries and data manipulation for reporting.  
+3. **Microsoft Excel**:Data Analysis and Reporting: Employed for preliminary data analysis, manipulation, and as an interim data storage format before importing into Power BI.  
+4. **CSV Files**:Data Import and Integration: CSV files are used as a data source for importing historical data and integrating with other data formats.  
+5. **GitHub**:Documentation and Version Control: Serves as the repository for all documentation related to the project.
 ---
 
 ## About the Dataset:
 
 ### Data Sources:
 The dataset contains 11 tables in total, namely:
-- From gdb041 MySQL Server:
+- **From gdb041 MySQL Server:**
   - dim_customer: 209 records | 5 columns
   - dim_market: 27 records | 3 columns
   - dim_product: 397 records | 6 columns
   - fact_forecast_monthly: 1,885,941 records | 4 columns
   - fact_sales_monthly: 1,885,941 records | 4 columns
-- From gdb041 MySQL Server:
+- **From gdb041 MySQL Server:**
   - freight_cost: 135 records | 4 columns
   - manufacturing_cost: 1,197 records | 3 columns
   - post_invoice_deductions: 2,063,076 records | 5 columns
-- Excel Files:
+- **Excel Files:**
   - market_share: 737 records | 6 columns
   - operational_expense: 113 records | 4 columns
   - ns_gm_target: 321 records | 5 columns
-
-## Data Integrity:
-ROCCC Evaluation:
-- Reliability: MED - The raw dataset is created and updated by Codebasics. It has total 9 files. All of them were utilized in the analysis.
-- Originality: HIGH - First party provider (Codebasics)
-- Comprehensiveness: HIGH - Total 11 Files with a total of around 5.8 Million records were provided. Dataset contains multiple dimension parameters for Customers & Products as well as comprehensive sales transaction data.
-- Current: MED - Dataset was updated upto FY 2022 i.e almost 2 years old. So its not very relevant. Any trends observed and insights gained need to be comprehended as a general (not FY-specific) trend.
-- Citation: HIGH - Official citation/reference available.
-
 ---
 
-## Data Model:
+### Data Model:
 
 ---
 
