@@ -43,16 +43,35 @@ Please find the sectional links for the project below:
 AltiQ Hardware, a global leader in computers and accessories, faced unexpected losses after opening a store in America. These setbacks were identified to be caused due to reliance on outdated methods such as Excel for data analysis. To address this issue, the company's leadership recognized the need for a transformative approach to leveraging data for informed decision-making. With competitors boasting robust analytics teams, AltiQ Hardware recognizes the urgent need to develop its analytics capabilities using Power BI to thrive in the industry.
 
 To outshine competitors, they've adopted Power BI for analytics with 1.8 million transaction records from Excel, CSV, and MySQL. The Power BI Dashboard includes:
-- Home Page: Central navigation for Dashboard.
-- Finance: Enhances financial planning.
-- Sales: Boosts revenue and market share.
-- Marketing: Elevates brand visibility.
-- Supply Chain: Optimizes inventory management.
-- Executive: Provides top management overview.
+## Step-by-Step Execution: Building the Business Insights 360 DashBoard  
 
-## Tools used:
-1. Microsoft Power BI: for Data ETL, Data Modelling, Data Visualization & Dashboarding
-2. GitHub - for Documentation
+- **Project Charter Implementation**: Establish a clear roadmap and accountability through a well-structured Project Charter.
+- **Benchmark-Backed Data Validation**: Ensure high data quality by processing and validating over 1 million rows of data against company benchmarks.
+- **Data Modeling Excellence**: Create robust data models using Star and Snowflake Schema methodologies to clarify relationships and data flow.
+- **Transforming Data with Power Query**: Utilize Power Query to transform raw data into actionable insights.
+- **Optimized Reports for Seamless Insights**: Enhance report navigation and performance, improving the decision-making process.
+- **Stakeholder Mapping Analysis**: Identify and analyze key stakeholders to tailor engagement and communication strategies effectively.
+- **Finance Insights Unveiled**: Develop a dynamic P&L table structure to provide flexible and comprehensive financial insights.
+- **Sales Performance Redefined**: Implement advanced visualizations to depict sales trends and performance metrics dynamically.
+- **Marketing Analytics at its Best**: Equip the marketing team with strategic insights through innovative BI tools.
+- **Supply Chain Visibility Achieved**: Enhance supply chain efficiency through detailed inventory forecasts and error analysis.
+- **Executive Dashboard**: Offer executives a clear view of operational performance and market trends to aid strategic planning.
+- **Unleashing the Power of Power BI Services**: Guide the team on utilizing Power BI Services for real-time insights and collaboration.
+
+
+## Tools and Technologies
+1. **Microsoft Power BI**
+  - Power BI Desktop: Utilized for creating data models, performing data transformation (ETL), and developing interactive visualizations and dashboards.
+  - Power BI Service: Used for sharing reports, setting up automated data refreshes, and managing the BI environment in the cloud.
+2. **SQL Databases**
+  - Data Storage and Management: Acts as the primary storage for structured data, enabling complex queries and data manipulation for reporting.  
+3. **Microsoft Excel**
+  - Data Analysis and Reporting: Employed for preliminary data analysis, manipulation, and as an interim data storage format before importing into Power BI.  
+4. **CSV Files**
+  - Data Import and Integration: CSV files are used as a data source for importing historical data and integrating with other data formats.  
+5. **GitHub**
+  - Documentation and Version Control: Serves as the repository for all documentation related to the project.
+
 
 ## Skills & Methodologies implemented:
 1. Data Cleaning: **Power Query**
