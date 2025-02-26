@@ -1,4 +1,5 @@
 # AtliQ Hardware Business Insights 360 : Power BI Project
+![bi screenshot](https://github.com/user-attachments/assets/895c9a0b-cc43-4777-b4a1-1449b0c4f574)
 
 This repository serves as my documentation for the AtliQ Hardwares Business Insights 360 - Power BI Project.
 It was created as a self-learning project for the course: [Get Job Ready: Power BI Data Analytics for All Levels 2.0](https://codebasics.io/courses/power-bi-data-analysis-with-end-to-end-project) by [Codebasics](https://codebasics.io/).
